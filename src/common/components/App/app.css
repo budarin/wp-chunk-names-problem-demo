@@ -1,0 +1,18 @@
+:root {
+    --page-header-bg-color: rgb(34, 34, 250);
+    --page-header-color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pageHeader {
+    background-color: var(--page-header-bg-color);
+    color: var(--page-header-color);
+}
+
+.app {
+    color: green;
+}
