@@ -49,7 +49,7 @@ const Page3 = lazyComponent({
     // @ts-ignore
     async asyncLoader() {
         if (__CLIENT__) {
-            return import(/* webpackChunkName: "Page1" */ '../pages/Page3/Page3');
+            return import(/* webpackChunkName: "Page3" */ '../pages/Page3/Page3');
         }
     },
     syncLoader() {
@@ -65,7 +65,7 @@ const NotFound = lazyComponent({
     // @ts-ignore
     async asyncLoader() {
         if (__CLIENT__) {
-            return import(/* webpackChunkName: "Page1" */ '../components/NotFound');
+            return import(/* webpackChunkName: "NotFound" */ '../components/NotFound');
         }
     },
     syncLoader() {
