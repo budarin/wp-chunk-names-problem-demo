@@ -2,7 +2,6 @@ const isTesting = process.env.NODE_ENV === 'test';
 const isDev = process.env.NODE_ENV !== 'production';
 
 module.exports = {
-    comments: false,
     presets: [
         [
             '@babel/preset-env',

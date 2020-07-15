@@ -18,7 +18,7 @@ const includePaths = [path.resolve('./src/common'), path.resolve('./src/client')
 module.exports = {
     name: 'client_dev',
     mode: 'development',
-    watch: true,
+    watch: false,
     cache: false,
     target: 'web',
     profile: false,
