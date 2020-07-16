@@ -17,48 +17,48 @@ const Page1 = lazyComponent({
     // @ts-ignore
     async asyncLoader() {
         if (__CLIENT__) {
-            return import(/* webpackChunkName: "Page1" */ '../pages/Page1/Page1');
+            return import(/* webpackChunkName: "Page1" */ '../pages/Page1');
         }
     },
     syncLoader() {
         if (__SERVER__) {
-            return require('../pages/Page1/Page1');
+            return require('../pages/Page1');
         }
     },
     // @ts-ignore
-    id: require.resolveWeak('../pages/Page1/Page1'),
+    id: require.resolveWeak('../pages/Page1'),
 });
 
 const Page2 = lazyComponent({
     // @ts-ignore
     async asyncLoader() {
         if (__CLIENT__) {
-            return import(/* webpackChunkName: "Page2" */ '../pages/Page2/Page2');
+            return import(/* webpackChunkName: "Page2" */ '../pages/Page2');
         }
     },
     syncLoader() {
         if (__SERVER__) {
-            return require('../pages/Page2/Page2');
+            return require('../pages/Page2');
         }
     },
     // @ts-ignore
-    id: require.resolveWeak('../pages/Page2/Page2'),
+    id: require.resolveWeak('../pages/Page2'),
 });
 
 const Page3 = lazyComponent({
     // @ts-ignore
     async asyncLoader() {
         if (__CLIENT__) {
-            return import(/* webpackChunkName: "Page3" */ '../pages/Page3/Page3');
+            return import(/* webpackChunkName: "Page3" */ '../pages/Page3');
         }
     },
     syncLoader() {
         if (__SERVER__) {
-            return require('../pages/Page3/Page3');
+            return require('../pages/Page3');
         }
     },
     // @ts-ignore
-    id: require.resolveWeak('../pages/Page3/Page3'),
+    id: require.resolveWeak('../pages/Page3'),
 });
 
 const NotFound = lazyComponent({
